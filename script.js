@@ -5,7 +5,8 @@ let userName = '';
 userName ? console.log(`Hey, ${userName}!`) : console.log('Hello!');
 
 //user question starts as blank so that it can be filled in by the user
-let userQuestion = '';
+// let userQuestion = '';
+let userQuestion = document.getElementById("question").value;
 
 //if userQuestion and UserName exsists, than console log "username, you asked userquestion"
 //otherwise, console log 'nothing was asked.'
